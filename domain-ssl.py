@@ -46,8 +46,8 @@ def days(str1, str2):
     return num
 
 def msg_push(message):
-    bot = telegram.Bot(token="1661802605:AAEBujopJfJiE5YcvBiBl-IP6KY6FcrGL_0")
-    bot.send_message(chat_id='-739268984', text=message)
+    bot = telegram.Bot(token="XXXX")
+    bot.send_message(chat_id='XXXX', text=message)
 
 def get_my_cert_dated(domain, certs, my_addr):  
     cert_beginning_time = parser.parse(certs['notBefore']).astimezone(pytz.utc)  
