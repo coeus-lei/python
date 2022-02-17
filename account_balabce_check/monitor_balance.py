@@ -15,8 +15,8 @@ import requests
 import os
 import shutil
 
-chat_id = "-591764591"
-token = "1994257380:AAFXtkWwZsLGqhoMYdnGBSpYI2OzlhzzkFM"
+chat_id = "XXXXXXX"
+token = "XXXXXXXXX"
 bot = telegram.Bot(token=token)
 
 args = sys.argv[1]
