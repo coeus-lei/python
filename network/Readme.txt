@@ -1,0 +1,2 @@
+#使用proc_network.sh定时获取20秒内进程流量统计
+#使用proc_network.py格式化输出,打印超过max_flow设定阈值的进程及流量输出
