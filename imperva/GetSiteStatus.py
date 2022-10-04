@@ -3,10 +3,6 @@ from xml import dom
 import requests,json
 from config import api_id, api_key, account_id, get_site_status
 
-api_id = '52742'
-api_key = '31bcccbf-85d4-49d8-bfe2-66baaa658b87'
-account_id = '1966488'
-site_ip = '35.229.209.207'
 get_site_list = 'https://my.imperva.com/api/prov/v1/sites/list'
 data_site = {
         'api_id': api_id,
