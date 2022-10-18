@@ -1,0 +1,8 @@
+1.新建应用集ssl_monitor:域名自动发现
+2.新建自动发现规则:域名自动发现
+3.新建自动发现规则
+4.新建监控项类型#DOMAIN_NAME
+5.配置触发器类型
+6.zabbix-agent配置文件添加规则:
+        UserParameter=ssl_discovery,python /etc/zabbix/domain_check.py ssl.txt
+        UserParameter=ssl_monitor1[*],python3 /etc/zabbix/ssl_check.py $1
