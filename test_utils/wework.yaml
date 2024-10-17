@@ -1,0 +1,12 @@
+test_post_list_id:
+    "method": "post"
+    "url": "https://qyapi.weixin.qq.com/cgi-bin/externalcontact/list"
+    "json":
+        "cursor": ${cursor}
+        "limit": 100
+
+test_post_getuserid:
+    "method": "post"
+    "url": "https://qyapi.weixin.qq.com/cgi-bin/user/getuserid"
+    "json":
+        "userlist": ${mobile}
